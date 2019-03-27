@@ -142,7 +142,7 @@ def index(*, page='1'):
 
 	# 如果表里没有条目，则不需要显示
 	if (not num) and num == 0:
-		logger.info('the type of num is: %s' % type(numn))
+		logger.info('the type of num is: %s' % type(num))
 		blogs = []
 	else:
 		# 通过Page类来计算当前页的相关信息
